@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Pacifico&family=Pixelify+Sans&family=Roboto:ital@1&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gilroy';
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#clock-container{
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    /* background-color: red; */
+    background: url(./Clock1.jfif) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour,#minute,#second{
+    background-color: black;
+    position:absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 28%;
+    top: 22%;
+    left: 49.5%;
+    
+}
+#minute{
+    width: 2%;
+    height: 35%;
+    top: 15%;
+    left: 48.55%;
+   
+}
+#second{
+    width: 2%;
+    height: 42%;
+    top: 8%;
+    left: 48.55%;
+}
+#digital{
+    height: 10vw;
+    width: 50vw;
+    margin: 25vw;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
